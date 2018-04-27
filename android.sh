@@ -23,7 +23,6 @@ brew update
 brew cask install java
 
 #install Android Environment
-
 brew cask install android-studio
 brew install android-sdk
 

@@ -26,6 +26,7 @@ echo "------------------------------"
 echo "Installing Git"
 echo "------------------------------"
 echo ""
+
 # Git
 brew install git
 brew install git-flow
@@ -76,6 +77,17 @@ echo ""
 # Install Heroku
 brew install heroku-toolbelt
 heroku update
+
+
+# Misc casks
+brew cask install --appdir="/Applications" google-chrome
+brew cask install --appdir="/Applications" skype
+brew cask install --appdir="/Applications" slack
+
+
+# Development tool casks
+brew cask install --appdir="/Applications" sublime-text
+brew cask install --appdir="/Applications" atom
 
 # Remove outdated versions from the cellar.
 brew cleanup

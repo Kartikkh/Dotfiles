@@ -62,7 +62,7 @@ function runDots() {
             echo ""
             ./datastores.sh
         fi
-        if [ $ARG == "web" ] || [ $ARG == "all" ]; then
+        if [ $ARG == "javascript" ] || [ $ARG == "all" ]; then
             # Run the javascript.sh Script
             echo "------------------------------"
             echo "Setting up JavaScript web development environment."
@@ -86,14 +86,7 @@ function runDots() {
             echo ""
             ./git.sh
         fi
-        if [ $ARG == "editor" ] || [ $ARG == "all" ]; then
-            # Run the editor.sh Script
-            echo "------------------------------"
-            echo "Setting up IDE "
-            echo "------------------------------"
-            echo ""
-            ./editorsetup.sh
-        fi
+       
     done
 
     echo "------------------------------"

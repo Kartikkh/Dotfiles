@@ -24,34 +24,26 @@ fi
 
 echo ""
 echo "------------------------------"
-echo "Git Setup "
+echo "Git is already Installed ! "
 echo "------------------------------"
-echo ""
 
 
-echo ""
-echo "------------------------------"
-echo "Tell your Git username !"
-echo "------------------------------"
-echo ""
 
-read -p "Name : " Name
+read -p  'Name: ' Name
 git config --global user.name $Name
 
 
-echo ""
-echo "------------------------------"
-echo "Tell your Git email !"
-echo "------------------------------"
-echo ""
-read -p "Email : " Email;
+
+read -p 'Email: ' Email
 git config --global user.email $Email
 
-color.status=auto
-color.branch=auto
-color.interactive=auto
-color.diff=auto
 
+
+read -sp 'Password: ' Password
+git config --global user.password $Password
+
+
+git config --list
 
 
 

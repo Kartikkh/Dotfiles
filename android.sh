@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-# Install command-line tools using Homebrew.
 
 # Ask for the administrator password upfront.
 sudo -v
@@ -18,39 +17,15 @@ fi
 # Make sure we’re using the latest Homebrew.
 brew update
 
-# Upgrade any already-installed formulae.
-brew upgrade --all
 
 
-# Git
-brew install git
-brew install git-flow
-brew install git-extras
-
-
-# Java Install
+# Install Java
 brew cask install java
 
+#install Android Environment
 
-# node setup
-brew install node
-
-# python setup
-brew install python
-brew install python3
-
-
-# Go setup
-brew install go
-
-
-
-# Install Heroku
-brew install heroku-toolbelt
-heroku update
+brew cask install android-studio
+brew install android-sdk
 
 # Remove outdated versions from the cellar.
 brew cleanup
-
-
-

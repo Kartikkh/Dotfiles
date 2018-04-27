@@ -37,10 +37,6 @@ function runDots() {
             ./osxprep.sh
         fi
         if [ $ARG == "brew" ] || [ $ARG == "all" ]; then
-            # Run the brew.sh Script
-            # For a full listing of installed formulae and apps, refer to
-            # the commented brew.sh source file directly and tweak it to
-            # suit your needs.
             echo ""
             echo "------------------------------"
             echo "Installing Homebrew along with some common formulae and apps."
@@ -58,14 +54,6 @@ function runDots() {
             echo ""
             ./pydata.sh
         fi
-        if [ $ARG == "aws" ] || [ $ARG == "all" ]; then
-            # Run the aws.sh Script
-            echo "------------------------------"
-            echo "Setting up AWS development environment."
-            echo "------------------------------"
-            echo ""
-            ./aws.sh
-        fi
         if [ $ARG == "datastores" ] || [ $ARG == "all" ]; then
             # Run the datastores.sh Script
             echo "------------------------------"
@@ -80,7 +68,7 @@ function runDots() {
             echo "Setting up JavaScript web development environment."
             echo "------------------------------"
             echo ""
-            ./web.sh
+            ./js.sh
         fi
         if [ $ARG == "android" ] || [ $ARG == "all" ]; then
             # Run the android.sh Script

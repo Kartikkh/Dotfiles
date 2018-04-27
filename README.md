@@ -3,7 +3,7 @@
 It is a very cumbersome process setting up development environment on your Mac
 and its very time consuming too.
 
-So these are the Dotfiles which can easily installed all your Dev tools and dependencies such that it will provide you same experience as your Mac is never been formated !
+So these are the Dotfiles, which can easily install all your Dev tools and dependencies such that it will provide you same experience as your Mac is never been formated !
 
 These Dotfile or script automate the process of manual setups
 
@@ -65,7 +65,8 @@ For many dev tools, Run
 ```bash
 ./start.sh [NAME OF FILES TO RUN] 
 ```
-#Contribution
+# Contribution
+
 Pull requests are welcome !
 
 

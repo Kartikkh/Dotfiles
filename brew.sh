@@ -21,7 +21,11 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade --all
 
-
+echo ""
+echo "------------------------------"
+echo "Installing Git"
+echo "------------------------------"
+echo ""
 # Git
 brew install git
 brew install git-flow
@@ -29,22 +33,46 @@ brew install git-extras
 
 
 # Java Install
+echo ""
+echo "------------------------------"
+echo "Installing Java"
+echo "------------------------------"
+echo ""
 brew cask install java
 
 
 # node setup
+echo ""
+echo "------------------------------"
+echo "Installing Node"
+echo "------------------------------"
+echo ""
 brew install node
 
 # python setup
+echo ""
+echo "------------------------------"
+echo "Installing Python "
+echo "------------------------------"
+echo ""
 brew install python
 brew install python3
 
 
+echo ""
+echo "------------------------------"
+echo "Installing Go"
+echo "------------------------------"
+echo ""
 # Go setup
 brew install go
 
 
-
+echo ""
+echo "------------------------------"
+echo "Installing Heroku"
+echo "------------------------------"
+echo ""
 # Install Heroku
 brew install heroku-toolbelt
 heroku update

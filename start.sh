@@ -78,6 +78,14 @@ function runDots() {
             echo ""
             ./android.sh
         fi
+        if [ $ARG == "gitsetup" ] || [ $ARG == "all" ]; then
+            # Run the Git.sh Script
+            echo "------------------------------"
+            echo "Setting up Git"
+            echo "------------------------------"
+            echo ""
+            ./git.sh
+        fi
         if [ $ARG == "editor" ] || [ $ARG == "all" ]; then
             # Run the editor.sh Script
             echo "------------------------------"

@@ -63,12 +63,12 @@ function runDots() {
             ./datastores.sh
         fi
         if [ $ARG == "web" ] || [ $ARG == "all" ]; then
-            # Run the web.sh Script
+            # Run the javascript.sh Script
             echo "------------------------------"
             echo "Setting up JavaScript web development environment."
             echo "------------------------------"
             echo ""
-            ./js.sh
+            javascript.sh
         fi
         if [ $ARG == "android" ] || [ $ARG == "all" ]; then
             # Run the android.sh Script

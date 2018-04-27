@@ -28,10 +28,19 @@ echo "Installing Node.JS"
 echo "------------------------------"
 echo ""
 brew install node
+
+
+
+echo ""
+echo "------------------------------"
+echo "Installing Package Manager"
+echo "------------------------------"
+echo ""
 npm install -g npm
+npm install -g bower
+
 
 # Npm Module
-
 echo ""
 echo "------------------------------"
 echo "Installing Node Modules "
@@ -62,8 +71,22 @@ npm i chai
 npm i mocha
 
 
+# Angular setup
 
+echo ""
+echo "------------------------------"
+echo "Angular Setup"
+echo "------------------------------"
+echo ""
+npm install -g @angular/cli
 
+echo ""
+echo "------------------------------"
+echo "Coffee Script, Grunt Cli"
+echo "------------------------------"
+echo ""
+npm install -g coffee-script
+npm install -g grunt-cli
 
 
 

@@ -86,7 +86,7 @@ function runDots() {
             echo ""
             ./git.sh
         fi
-       
+
     done
 
     echo "------------------------------"

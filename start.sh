@@ -78,6 +78,14 @@ function runDots() {
             echo ""
             ./android.sh
         fi
+        if [ $ARG == "editor" ] || [ $ARG == "all" ]; then
+            # Run the editor.sh Script
+            echo "------------------------------"
+            echo "Setting up IDE "
+            echo "------------------------------"
+            echo ""
+            ./editorsetup.sh
+        fi
     done
 
     echo "------------------------------"
